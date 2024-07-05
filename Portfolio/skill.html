@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Skillset</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            background-color: #1c1c1e;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+        }
+        .category {
+            margin-bottom: 40px;
+        }
+        .category h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background-color: #3c3c3e;
+            border-radius: 10px;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        .card img {
+            width: 48px;
+            height: 48px;
+            margin-bottom: 10px;
+        }
+        .card span {
+            font-size: 14px;
+        }
+        @media (max-width: 768px) {
+            .card img {
+                width: 40px;
+                height: 40px;
+            }
+            .card span {
+                font-size: 12px;
+            }
+        }
+        @media (max-width: 480px) {
+            .card img {
+                width: 30px;
+                height: 30px;
+            }
+            .card span {
+                font-size: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Professional Skillset</h1>
+    <div id="skills-container" class="container">
+        <!-- Skills will be inserted here dynamically -->
+    </div>
+
+    <script>
+        fetch('assets/json/skills.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok ' + response.statusText);
+                }
+                return response.json();
+            })
+            .then(data => {
+                const container = document.getElementById('skills-container');
+                for (const category in data) {
+                    const categoryDiv = document.createElement('div');
+                    categoryDiv.className = 'category ' + category;
+                    
+                    const categoryTitle = document.createElement('h2');
+                    categoryTitle.textContent = category.replace(/_/g, ' ').replace(/(?:^|\s|_)\S/g, function(a) { return a.toUpperCase(); });
+                    categoryDiv.appendChild(categoryTitle);
+                    
+                    const skillsGrid = document.createElement('div');
+                    skillsGrid.className = 'skills-grid';
+
+                    data[category].forEach(skill => {
+                        const card = document.createElement('div');
+                        card.className = 'card';
+                        card.innerHTML = `
+                            <img src="${skill.icon}" alt="${skill.name} icon">
+                            <span>${skill.name}</span>
+                        `;
+                        skillsGrid.appendChild(card);
+                    });
+
+                    categoryDiv.appendChild(skillsGrid);
+                    container.appendChild(categoryDiv);
+                }
+            })
+            .catch(error => console.error('There was a problem with the fetch operation:', error));
+    </script>
+</body>
+</html>

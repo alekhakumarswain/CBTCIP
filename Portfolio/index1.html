@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>ALEKHA KUMAR SWAIN</title>
+  <!-- Add Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Add your own stylesheets or additional CSS files here -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .welcome-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 20px;
+    }
+
+    .welcome-img {
+      width: 200px;
+      height: auto;
+      margin-bottom: 30px;
+    }
+
+    .welcome-title {
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .welcome-description {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .btn-next {
+      background-color: #25D366;
+      color: #fff;
+      border-color: #25D366;
+    }
+  </style>
+  <style>
+    /* Add your custom styles here */
+    .active {
+      color: red;
+      border: 2px solid black;
+      border-radius: 25%;
+      background-color: rgba(230, 45, 56, 0.4);
+    }
+
+    .fixed-bottom {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #f8f9fa;
+      padding: 5px 0;
+      box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .list-inline {
+      display: flex;
+      justify-content: center;
+    }
+
+    .list-inline li {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 22px;
+      cursor: pointer;
+    }
+
+    .list-inline li span {
+      margin-top:2px;
+      font-size: 12px;
+      color: #333;
+    }
+
+    .logo {
+      font-size: 30px;
+      color: #333;
+    }
+    video {
+
+      width: 100%; /* Adjust the width as needed */
+
+      height: auto; /* Adjust the height as needed */
+    }
+  </style>
+</head>
+
+<body>
+
+<nav style="background-color: blue;" class="navbar navbar-expand-lg navbar-dark ">
+    <div  class="container">
+      <a class="navbar-brand" href="/">Parprofilio</a>
+    </div>
+  </nav>
+  
+  
+   <div class="container">
+    <div class="welcome-container">
+      
+      <video id="myVideo" src="https://github.com/alekhakumarswain/alekhakumarswain.github.io/raw/main/Video/InShot_20230530_085614579.mp4" autoplay controls>
+        Your browser does not support the video tag.
+      </video>
+       <script>
+    window.onload = function() {
+      var video = document.getElementById('myVideo');
+      video.play();
+    };
+  </script>
+  
+  <h1 class="welcome-title">Welcome to My Profile</h1>
+  <p class="welcome-description">Thank you for visiting! Here you will find a glimpse into my world. I am excited to share my passions, experiences, and interests with you. Feel free to explore and discover more about me. I hope you enjoy your time here and find it engaging and insightful. If you have any questions or would like to connect, please don't hesitate to reach out. Welcome once again, and I look forward to connecting with you!.</p>
+  <button type="button" class="btn btn-next btn-block">Next</button>
+</div>
+</div>
+  <div class="fixed-bottom">
+    <ul class="list-inline image-name">
+      <li id="a1">
+        <span class="logo"><i class="fas fa-project-diagram"></i></span>
+        <span>Project</span>
+      </li>
+      <li id="a2">
+        <span class="logo"><i class="fas fa-address-book"></i></span>
+        <span>Contact</span>
+      </li>
+      <li id="a3">
+        <span class="logo"><i class="fas fa-home"></i></span>
+        <span>Home</span>
+      </li>
+      <li id="a4">
+        <span class="logo"><i class="fas fa-clipboard-check"></i></span>
+        <span>Skill</span>
+      </li>
+      <li id="a5">
+        <span class="logo"><i class="fas fa-certificate"></i></span>
+        <span>Certificate</span>
+      </li>
+    </ul>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.min.js"></script>
+  <script>
+        // Get all the list items
+    var listItems = document.querySelectorAll(".image-name li");
+
+    // Add click event listener to each list item
+    listItems.forEach(function(item) {
+      item.addEventListener("click", function() {
+        // Remove "active" class from all list items
+        listItems.forEach(function(li) {
+          li.classList.remove("active");
+        });
+        // Add "active" class to the clicked list item
+        this.classList.add("active");
+      });
+      });
+  </script>
+  <script>
+    // Add event listener to the next button
+    var nextButton = document.querySelector('.btn-next');
+    nextButton.addEventListener('click', function() {
+      // Redirect to the login page
+      window.location.href = 'login.html';
+    });
+  </script>
+</body>
+</html>

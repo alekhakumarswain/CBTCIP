@@ -1,0 +1,89 @@
+{
+    "certificates": [
+      {
+        "title": "Introduction to Generative AI",
+        "issuer": "Google",
+        "issue_date": "Mar 2024",
+        "icon": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdA3SwTqYlkRFqToWGn_KkhTzAY_oyE2CMNRHMzj5mP6Vdh098aQIuWd4J0cxuvw9x_OFP3W6g1NgaDDgLGuCVY-A0OfDKUpwV_K0L0IvbgHQihAspGSZj6g8afwLUvZMxa_xNSUIFAl-Cdzo2TrkR2jwCpCcGLTRoS_HvrjOImGTlbpz2Y_R2EIbDgA/w399-h294/png_20221217_135132_0000.png",
+        "credential_url": "https://www.credential-example.com/generative-ai"
+      },
+      {
+        "title": "Postman API Fundamentals Student Expert Certification",
+        "issuer": "Postman",
+        "issue_date": "",
+        "icon": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdA3SwTqYlkRFqToWGn_KkhTzAY_oyE2CMNRHMzj5mP6Vdh098aQIuWd4J0cxuvw9x_OFP3W6g1NgaDDgLGuCVY-A0OfDKUpwV_K0L0IvbgHQihAspGSZj6g8afwLUvZMxa_xNSUIFAl-Cdzo2TrkR2jwCpCcGLTRoS_HvrjOImGTlbpz2Y_R2EIbDgA/w399-h294/png_20221217_135132_0000.png",
+        "credential_url": "https://www.credential-example.com/postman-api"
+      },
+      {
+        "title": "Space Technology and Its Applications",
+        "issuer": "Indian Institute of Remote Sensing (IIRS), ISRO",
+        "issue_date": "Jan 2023",
+        "icon": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdA3SwTqYlkRFqToWGn_KkhTzAY_oyE2CMNRHMzj5mP6Vdh098aQIuWd4J0cxuvw9x_OFP3W6g1NgaDDgLGuCVY-A0OfDKUpwV_K0L0IvbgHQihAspGSZj6g8afwLUvZMxa_xNSUIFAl-Cdzo2TrkR2jwCpCcGLTRoS_HvrjOImGTlbpz2Y_R2EIbDgA/w399-h294/png_20221217_135132_0000.png",
+        "credential_url": "https://www.credential-example.com/space-technology"
+      },
+      {
+        "title": "Google Certified Digital Marketing Course",
+        "issuer": "Google",
+        "issue_date": "Mar 2022",
+        "icon": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdA3SwTqYlkRFqToWGn_KkhTzAY_oyE2CMNRHMzj5mP6Vdh098aQIuWd4J0cxuvw9x_OFP3W6g1NgaDDgLGuCVY-A0OfDKUpwV_K0L0IvbgHQihAspGSZj6g8afwLUvZMxa_xNSUIFAl-Cdzo2TrkR2jwCpCcGLTRoS_HvrjOImGTlbpz2Y_R2EIbDgA/w399-h294/png_20221217_135132_0000.png",
+        "credential_url": "https://www.credential-example.com/digital-marketing"
+      },
+      {
+        "title": "Google Ads Display Certification",
+        "issuer": "Google Digital Academy (Skillshop)",
+        "issue_date": "Mar 2022",
+        "icon": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdA3SwTqYlkRFqToWGn_KkhTzAY_oyE2CMNRHMzj5mP6Vdh098aQIuWd4J0cxuvw9x_OFP3W6g1NgaDDgLGuCVY-A0OfDKUpwV_K0L0IvbgHQihAspGSZj6g8afwLUvZMxa_xNSUIFAl-Cdzo2TrkR2jwCpCcGLTRoS_HvrjOImGTlbpz2Y_R2EIbDgA/w399-h294/png_20221217_135132_0000.png",
+        "credential_url": "https://www.credential-example.com/google-ads-display"
+      },
+      {
+        "title": "Accenture Nordics - Developer Job Simulation Internship",
+        "issuer": "Accenture",
+        "issue_date": "Jun 2024",
+        "icon": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdA3SwTqYlkRFqToWGn_KkhTzAY_oyE2CMNRHMzj5mP6Vdh098aQIuWd4J0cxuvw9x_OFP3W6g1NgaDDgLGuCVY-A0OfDKUpwV_K0L0IvbgHQihAspGSZj6g8afwLUvZMxa_xNSUIFAl-Cdzo2TrkR2jwCpCcGLTRoS_HvrjOImGTlbpz2Y_R2EIbDgA/w399-h294/png_20221217_135132_0000.png",
+        "credential_url": "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20Nordics/PxenP4rHNE6Bh4nQz_Accenture%20Nordics_dKYEF9PnwpDMFdxts_1717686028069_completion_certificate.pdf"
+      },
+      {
+        "title": "GenAIus Travels",
+        "issuer": "Google Cloud Skills Boost",
+        "issue_date": "Jun 2024",
+        "icon": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdA3SwTqYlkRFqToWGn_KkhTzAY_oyE2CMNRHMzj5mP6Vdh098aQIuWd4J0cxuvw9x_OFP3W6g1NgaDDgLGuCVY-A0OfDKUpwV_K0L0IvbgHQihAspGSZj6g8afwLUvZMxa_xNSUIFAl-Cdzo2TrkR2jwCpCcGLTRoS_HvrjOImGTlbpz2Y_R2EIbDgA/w399-h294/png_20221217_135132_0000.png",
+        "credential_url": "https://www.cloudskillsboost.google/public_profiles/81417533-852e-4ac8-b37a-a46cafa1e509/badges/9522568?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+      },
+      {
+        "title": "Introduction to Large Language Models",
+        "issuer": "Google Cloud Skills Boost",
+        "issue_date": "Jun 2024",
+        "icon": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdA3SwTqYlkRFqToWGn_KkhTzAY_oyE2CMNRHMzj5mP6Vdh098aQIuWd4J0cxuvw9x_OFP3W6g1NgaDDgLGuCVY-A0OfDKUpwV_K0L0IvbgHQihAspGSZj6g8afwLUvZMxa_xNSUIFAl-Cdzo2TrkR2jwCpCcGLTRoS_HvrjOImGTlbpz2Y_R2EIbDgA/w399-h294/png_20221217_135132_0000.png",
+        "credential_url": "https://www.cloudskillsboost.google/public_profiles/81417533-852e-4ac8-b37a-a46cafa1e509/badges/9564937?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+      },
+      {
+        "title": "Introduction to Responsible AI",
+        "issuer": "Google Cloud Skills Boost",
+        "issue_date": "Jun 2024",
+        "icon": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdA3SwTqYlkRFqToWGn_KkhTzAY_oyE2CMNRHMzj5mP6Vdh098aQIuWd4J0cxuvw9x_OFP3W6g1NgaDDgLGuCVY-A0OfDKUpwV_K0L0IvbgHQihAspGSZj6g8afwLUvZMxa_xNSUIFAl-Cdzo2TrkR2jwCpCcGLTRoS_HvrjOImGTlbpz2Y_R2EIbDgA/w399-h294/png_20221217_135132_0000.png",
+        "credential_url": "https://www.cloudskillsboost.google/public_profiles/81417533-852e-4ac8-b37a-a46cafa1e509/badges/9565062?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+      },
+      {
+        "title": "Introduction to Generative AI",
+        "issuer": "Google Cloud Skills Boost",
+        "issue_date": "Mar 2022",
+        "icon": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdA3SwTqYlkRFqToWGn_KkhTzAY_oyE2CMNRHMzj5mP6Vdh098aQIuWd4J0cxuvw9x_OFP3W6g1NgaDDgLGuCVY-A0OfDKUpwV_K0L0IvbgHQihAspGSZj6g8afwLUvZMxa_xNSUIFAl-Cdzo2TrkR2jwCpCcGLTRoS_HvrjOImGTlbpz2Y_R2EIbDgA/w399-h294/png_20221217_135132_0000.png",
+        "credential_url": "https://www.cloudskillsboost.google/public_profiles/81417533-852e-4ac8-b37a-a46cafa1e509/badges/8322023?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+      },
+      {
+        "title": "Fundamentals of digital marketing",
+        "issuer": "Google Digital Academy (Skillshop)",
+        "issue_date": "Mar 2022",
+        "icon": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdA3SwTqYlkRFqToWGn_KkhTzAY_oyE2CMNRHMzj5mP6Vdh098aQIuWd4J0cxuvw9x_OFP3W6g1NgaDDgLGuCVY-A0OfDKUpwV_K0L0IvbgHQihAspGSZj6g8afwLUvZMxa_xNSUIFAl-Cdzo2TrkR2jwCpCcGLTRoS_HvrjOImGTlbpz2Y_R2EIbDgA/w399-h294/png_20221217_135132_0000.png",
+        "credential_url": "https://skillshop.exceedlms.com/student/award/PbSHjgYq636YQgHLUhNiDtXu"
+      },
+      {
+        "title": "Google Ads Display Certification",
+        "issuer": "Google Digital Academy (Skillshop)",
+        "issue_date": "Mar 2022",
+        "icon": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdA3SwTqYlkRFqToWGn_KkhTzAY_oyE2CMNRHMzj5mP6Vdh098aQIuWd4J0cxuvw9x_OFP3W6g1NgaDDgLGuCVY-A0OfDKUpwV_K0L0IvbgHQihAspGSZj6g8afwLUvZMxa_xNSUIFAl-Cdzo2TrkR2jwCpCcGLTRoS_HvrjOImGTlbpz2Y_R2EIbDgA/w399-h294/png_20221217_135132_0000.png",
+        "credential_url": "https://skillshop.exceedlms.com/student/award/MjeWrnuFLB6tr26TsTVEsEZ8"
+      }
+    ]
+  }
+  

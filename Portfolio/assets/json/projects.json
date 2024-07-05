@@ -1,0 +1,77 @@
+{
+    "projects": [
+      {
+        "name": "Bunny Talk",
+        "description": "Developed a real-time video calling and chatting web application using HTML, CSS, JavaScript, jQuery, JSON, AJAX, Firebase, and API Integrated RESTful APIs for user authentication, message delivery, and video call functionalities.",
+        "start": "Oct 2023",
+        "end": "",
+        "imagelink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpPuxfhXhmFAUfql1GEgpwE2n8eHyVAh1qVA&s",
+        "source_link": "https://github.com/example/bunny-talk",
+        "live_link": "https://example.com/bunny-talk"
+      },
+      {
+        "name": "Posh Palette",
+        "description": "Created a shopping website for female products with comprehensive frontend and backend development. Integrated RESTful APIs for product listing, inventory management, and order processing.",
+        "start": "Mar 2024",
+        "end": "Mar 2024",
+        "imagelink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpPuxfhXhmFAUfql1GEgpwE2n8eHyVAh1qVA&s",
+        "source_link": "https://github.com/example/posh-palette",
+        "live_link": "https://example.com/posh-palette"
+      },
+      {
+        "name": "Diagnostic Web App",
+        "description": "Designed and developed both frontend and backend for a blood testing agency startup using PHP, AJAX, and other technologies.",
+        "start": "Jan 2023",
+        "end": "",
+        "imagelink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpPuxfhXhmFAUfql1GEgpwE2n8eHyVAh1qVA&s",
+        "source_link": "https://github.com/example/diagnostic-web-app",
+        "live_link": "https://example.com/diagnostic-web-app"
+      },
+      {
+        "name": "Suprabhat",
+        "description": "An Android app for reading newspapers, web news, and watching live news, integrating RESTful APIs for news aggregation, article retrieval, and video streaming.",
+        "start": "Feb 2024",
+        "end": "May 2024",
+        "imagelink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpPuxfhXhmFAUfql1GEgpwE2n8eHyVAh1qVA&s",
+        "source_link": "https://github.com/example/suprabhat",
+        "live_link": "https://example.com/suprabhat"
+      },
+      {
+        "name": "Super Favourite",
+        "description": "A technical blog writing platform with custom APIs for blog post management, user authentication, and content delivery.",
+        "start": "Apr 2023",
+        "end": "",
+        "imagelink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpPuxfhXhmFAUfql1GEgpwE2n8eHyVAh1qVA&s",
+        "source_link": "https://github.com/example/super-favourite",
+        "live_link": "https://example.com/super-favourite"
+      },
+      {
+        "name": "Techbeen",
+        "description": "A shopping website for technical products, focusing on frontend and backend development and incorporating payment API.",
+        "start": "Jul 2023",
+        "end": "",
+        "imagelink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpPuxfhXhmFAUfql1GEgpwE2n8eHyVAh1qVA&s",
+        "source_link": "https://github.com/example/techbeen",
+        "live_link": "https://example.com/techbeen"
+      },
+      {
+        "name": "Telsan",
+        "description": "A group chat application enabling users to connect and chat with strangers, with RESTful APIs for user authentication, message delivery, and group management.",
+        "start": "Jun 2023",
+        "end": "",
+        "imagelink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpPuxfhXhmFAUfql1GEgpwE2n8eHyVAh1qVA&s",
+        "source_link": "https://github.com/example/telsan",
+        "live_link": "https://example.com/telsan"
+      },
+      {
+        "name": "Little Champ",
+        "description": "A kid's game web app for play and learning, leveraging React, Vite, Node.js, and other technologies.",
+        "start": "Sep 2023",
+        "end": "",
+        "imagelink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpPuxfhXhmFAUfql1GEgpwE2n8eHyVAh1qVA&s",
+        "source_link": "https://github.com/example/little-champ",
+        "live_link": "https://example.com/little-champ"
+      }
+    ]
+  }
+  

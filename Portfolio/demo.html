@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Image Overlay</title>
+    <style>
+        bside {
+            position: relative;
+            z-index: 1;
+            background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+            color: white;
+            padding: 1rem;
+            width: 17%;
+            height: 70vh;
+            position: fixed;
+            top: 150px;
+            left: 78%;
+            border-radius: 30px;
+            border: 7px solid #ada41e;
+            margin: 15px;
+        }
+
+        bside .circle-img-icon {
+            position: absolute;
+            top: -90px; 
+            left: 50%; 
+            transform: translateX(-50%); 
+            z-index: 1; 
+            width: 130px; 
+            height: 130px; 
+            overflow: hidden;
+            border-radius: 20px;
+            border: 2px solid pink;
+        }
+
+        bside .circle-img-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .content {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .content h3 {
+            color: rgb(172, 68, 30);
+            margin-bottom: 0.5rem;
+        }
+
+        .content p {
+            margin: 0.5rem 0;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin: 1rem 0;
+        }
+        .social-icons a {
+            margin: 0 0.5rem;
+            text-decoration: none;
+        }
+
+        .social-icons a:nth-child(1) i {
+            background: -webkit-linear-gradient(rgb(59, 89, 152), rgb(59, 89, 152)); /* Facebook colors */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .social-icons a:nth-child(2) i {
+            background: -webkit-linear-gradient(rgb(85, 172, 238), rgb(29, 161, 242)); /* Twitter colors */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .social-icons a:nth-child(3) i {
+            background: -webkit-linear-gradient(rgb(188, 42, 141), rgb(225, 48, 108)); /* Instagram colors */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .social-icons a:nth-child(4) i {
+            background: -webkit-linear-gradient(rgb(40, 103, 178), rgb(0, 119, 181)); /* LinkedIn colors */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .social-icons a:nth-child(5) i {
+            background: -webkit-linear-gradient(rgb(36, 41, 46), rgb(106, 115, 125)); /* GitHub colors */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+
+        .social-icons i {
+            font-size: 24px;
+            color: white;
+        }
+
+        .contact-info {
+            text-align: left;
+            margin: 0.6rem 0;
+        }
+
+        .contact-info div {
+            display: flex;
+            align-items: flex-start;
+            margin: 0.5rem 0;
+        }
+
+        .contact-info div i {
+            font-size: 20px;
+            margin-right: 5px;
+            color: white;
+        }
+
+        .contact-info div .detail {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-info div .detail span {
+            font-size: 1rem;
+            position: relative;
+            top: -10px;
+        }
+
+        .download-cv {
+            display: block;
+            text-align: center;
+            font-size: 1.3rem;
+            margin-top: 0.1rem;
+            padding: 0.5rem 0.5rem;
+            background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
+            text-decoration: none;
+            border-radius: 15px;
+            border: 2px solid rgb(20, 184, 11);
+        }
+
+        .download-cv i {
+            vertical-align: middle;
+            margin-right: 0.5rem;
+            background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .download-cv b{
+            background: -webkit-linear-gradient(85deg,rgb(245, 2, 2),rgb(247, 247, 13),pink,rgb(230, 15, 220),white,rgb(41, 229, 229));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+    </style>
+</head>
+<body>
+
+    <bside>
+        <div id="img-avatar-icon" class="circle-img-icon">
+            <img src="https://raw.githubusercontent.com/alekha-kumar-swain/alekha-kumar-swain/main/1714368282588.jpeg" alt="Alekha Kumar Swain">
+        </div>
+        <div class="content">
+            <h3>Alekha Kumar Swain</h3>
+            <p>Software Engineer</p>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/swainraja.kumaralekha"><i class="fab fa-facebook"></i></a>
+            <a href="https://x.com/alekha5258swain"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/alekhakumarswainraja/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/alekhakumar/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/alekhakumarswain"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="contact-info">
+            <div>
+                <i class="fas fa-phone" style="color: green;"></i>
+                <div class="detail">
+                    <span style="font-size: 1.2rem;">+91 8018226416</span>
+                </div>
+            </div>
+            <div>
+                <i class="fas fa-envelope" style="color: rgb(233, 127, 34);"></i>
+                <div class="detail">
+                    <span style="font-size: 1rem;">alekhakumarswain111@gmail.com</span>
+                </div>
+            </div>
+            <div>
+                <i class="fas fa-map-marker-alt" style="color: rgb(39, 155, 184);"></i>
+                <div class="detail">
+                    <span style="font-size: 1.2rem;">Bhubaneswar, Odisha, India</span>
+                </div>
+            </div>
+            <div>
+                <i class="fas fa-birthday-cake" style="color: rgb(204, 28, 180);"></i>
+                <div class="detail">
+                    <span style="font-size: 1.2rem;">20th April 2002</span>
+                </div>
+            </div>
+            <div>
+                <i class="fas fa-school" style="color: rgb(26, 0, 128);"></i>
+                <div class="detail">
+                    <span style="font-size: 1.2rem;">College of Engineering Bhubaneswar</span>
+                </div>
+            </div>
+            <div>
+                <i class="fas fa-tint" style="color: rgb(224, 9, 23);"></i>
+                <div class="detail">
+                    <span style="font-size: 1.2rem;">O +ve</span>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="download-cv">
+            <i class="fas fa-download"></i> <b>Download CV</b>
+        </a>
+    </bside>
+
+</body>
+</html>

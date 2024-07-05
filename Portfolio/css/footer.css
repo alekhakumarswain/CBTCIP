@@ -1,0 +1,36 @@
+footer nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+footer nav ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    display: block;
+}
+footer nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 20px;
+}
+footer nav ul li a:active {
+    background-color: #575757;
+}
+footer nav ul li a.active {
+    background-color: antiquewhite;
+    color: black;
+}
+footer nav ul li i {
+    margin-bottom: 5px;
+    font-size: 3.5vw;
+}
+footer nav ul li strong{
+        font-size: 3.5vw;
+}

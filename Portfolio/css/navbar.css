@@ -1,0 +1,59 @@
+#home {
+    background-color: rgba(41, 99, 166, 0.8);
+    padding: 1%;
+    border: 1px solid gold;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: transform 0.5s ease, flex-direction 0.5s ease;
+    z-index: 10;
+}
+#img-avatar {
+    border-radius: 50%;
+    border: 2px solid pink;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+    margin: 0 auto;
+    transition: margin 0.5s ease;
+}
+#img-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.circle-img {
+    margin-bottom: 0px;
+    border-radius: 20px;
+}
+#user-details {
+    transition: transform 0.5s ease; 
+}
+#user-details h2, #user-details h3 {
+    margin: 0;
+    padding: 0;
+}
+/* Scroll-down CSS */ 
+.scroll-down #home {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    position: fixed;
+    background-image: linear-gradient(115deg, rgba(212, 177, 141, 0.9) 0%, rgba(233,55,65,0.5)50%, rgba(226, 209, 195,0.6) 100%);
+    margin: 0 0 0px 0;
+    
+}
+.scroll-down #img-avatar {
+    margin-right: 20px;
+    width: 80px;
+    height: 80px;
+    
+}
+.scroll-down #title {
+    display: flex;
+    align-items: center;
+}
+.scroll-down #user-details {
+    transform: translateX(10px); /* Add transform for user-details */
+}

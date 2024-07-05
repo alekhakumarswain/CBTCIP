@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherVue</title>
+    <link rel="stylesheet" href="forecast.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="app-container">
+        <div id="app">
+            <div class="header">
+                <h1 style="color: brown;">Weather<b style="color: green;">Vue</b></h1>                
+            </div>
+            <div class="location-search">
+                <input type="text" id="location-input" placeholder="Enter location (city)">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+                <hr>
+                <button id="add-fev"><i class="fas fa-heart"></i></button>
+            </div>
+            <div class="forecast-container">
+                <h2>8-day forecast</h2>
+                <ul class="forecast-list">
+                    <li class="forecast-item" onclick="showForecastDetails('Fri, Jul 05')">
+                        <span class="date">Fri, Jul 05</span>
+                        <i class="fas fa-cloud-showers-heavy"></i>
+                        <span class="temp">31 / 26°C</span>
+                        <span class="description">light rain</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </li>
+                    <li class="forecast-item" onclick="showForecastDetails('Sat, Jul 06')">
+                        <span class="date">Sat, Jul 06</span>
+                        <i class="fas fa-cloud-showers-heavy"></i>
+                        <span class="temp">32 / 29°C</span>
+                        <span class="description">light rain</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </li>
+                    <li class="forecast-item" onclick="showForecastDetails('Sun, Jul 07')">
+                        <span class="date">Sun, Jul 07</span>
+                        <i class="fas fa-cloud-showers-heavy"></i>
+                        <span class="temp">31 / 28°C</span>
+                        <span class="description">moderate rain</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </li>
+                    <li class="forecast-item" onclick="showForecastDetails('Mon, Jul 08')">
+                        <span class="date">Mon, Jul 08</span>
+                        <i class="fas fa-cloud-showers-heavy"></i>
+                        <span class="temp">31 / 27°C</span>
+                        <span class="description">moderate rain</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </li>
+                    <li class="forecast-item" onclick="showForecastDetails('Tue, Jul 09')">
+                        <span class="date">Tue, Jul 09</span>
+                        <i class="fas fa-cloud-showers-heavy"></i>
+                        <span class="temp">31 / 28°C</span>
+                        <span class="description">light rain</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </li>
+                    <li class="forecast-item" onclick="showForecastDetails('Wed, Jul 10')">
+                        <span class="date">Wed, Jul 10</span>
+                        <i class="fas fa-cloud-showers-heavy"></i>
+                        <span class="temp">29 / 29°C</span>
+                        <span class="description">moderate rain</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </li>
+                    <li class="forecast-item" onclick="showForecastDetails('Thu, Jul 11')">
+                        <span class="date">Thu, Jul 11</span>
+                        <i class="fas fa-cloud-showers-heavy"></i>
+                        <span class="temp">29 / 28°C</span>
+                        <span class="description">moderate rain</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </li>
+                    <li class="forecast-item" onclick="showForecastDetails('Fri, Jul 12')">
+                        <span class="date">Fri, Jul 12</span>
+                        <i class="fas fa-cloud-showers-heavy"></i>
+                        <span class="temp">31 / 28°C</span>
+                        <span class="description">light rain</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </li>
+                </ul>
+            </div>
+            <div id="forecast-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                    <h3 id="forecast-date"></h3>
+                    <div class="forecast-details">
+                        <p><i class="fas fa-cloud-showers-heavy"></i> <span id="weather-description"></span></p>
+                        <p id="temperature"></p>
+                        <p id="wind"></p>
+                        <p id="humidity"></p>
+                        <p id="uv-index"></p>
+                        <p id="dew-point"></p>
+                        <div class="hourly-forecast">
+                            <table>
+                                <tr>
+                                    <th></th>
+                                    <th>Morning</th>
+                                    <th>Afternoon</th>
+                                    <th>Evening</th>
+                                    <th>Night</th>
+                                </tr>
+                                <tr>
+                                    <td>Temperature</td>
+                                    <td id="morning-temp"></td>
+                                    <td id="afternoon-temp"></td>
+                                    <td id="evening-temp"></td>
+                                    <td id="night-temp"></td>
+                                </tr>
+                                <tr>
+                                    <td>Feels Like</td>
+                                    <td id="morning-feels-like"></td>
+                                    <td id="afternoon-feels-like"></td>
+                                    <td id="evening-feels-like"></td>
+                                    <td id="night-feels-like"></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <p>Sunrise: <span id="sunrise"></span></p>
+                        <p>Sunset: <span id="sunset"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-nav">
+            <a href="index.html" class="nav-item " id="nav-home">
+                <i class="fas fa-home"></i>
+                <p>Home</p>
+            </a>
+            <a href="forecast.html" class="nav-item active" id="nav-forecast">
+                <i class="fas fa-cloud-sun"></i>
+                <p>Forecast</p>
+            </a>
+            <a href="#" class="nav-item" id="nav-saved">
+                <i class="fas fa-heart"></i>
+                <p>Saved</p>
+            </a>
+        </div>
+    </div>
+    <script src="forecast.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherVue</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="app-container">
+        <div id="app">
+            <div class="header">
+                <h1 style="color: brown;">Weather<b style="color: green;">Vue</b></h1>
+                <p id="current-date"></p>
+                <p id="current-time"></p>
+                <p id="last-updated">Last updated: <span id="last-updated-time"></span></p>
+                
+                <p id="location"><i class="fas fa-map-marker-alt"></i> Location:<p id="location-name">Loading...</p></p>
+            </div>
+            <div class="location-search">
+                <input type="text" id="location-input" placeholder="Enter location (city)">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+                <hr>
+                <button id="add-fev"><i class="fas fa-heart"></i></button>
+
+            </div>
+            <div class="weather-info">
+                <h2 id="current-temp">Loading...</h2>
+                <p id="weather-description">Loading...</p>
+                <div class="weather-details">
+                    <div class="weather-detail">
+                        <p><i class="fas fa-thermometer-half"></i> Temperature</p>
+                        <p id="feels-like">Loading...</p>
+                    </div>
+                    <div class="weather-detail">
+                        <p><i class="fas fa-wind"></i> Wind Speed</p>
+                        <p id="wind-speed">Loading...</p>
+                    </div>
+                    <div class="weather-detail">
+                        <p><i class="fas fa-tint"></i> Humidity</p>
+                        <p id="humidity">Loading...</p>
+                    </div>
+                    <div class="weather-detail">
+                        <p><i class="fas fa-cloud"></i> Cloud Cover</p>
+                        <p id="cloud-cover">Loading...</p>
+                    </div>
+                    <div class="weather-detail">
+                        <p><i class="fas fa-compass"></i> Wind Degree</p>
+                        <p id="wind-degree">Loading...</p>
+                    </div>
+                    <div class="weather-detail">
+                        <p><i class="fas fa-wind"></i> Wind Gust</p>
+                        <p id="wind-gust">Loading...</p>
+                    </div>
+                    <div class="weather-detail">
+                        <p><i class="fas fa-sun"></i> Sunrise</p>
+                        <p id="sunrise">Loading...</p>
+                    </div>
+                    <div class="weather-detail">
+                        <p><i class="fas fa-moon"></i> Sunset</p>
+                        <p id="sunset">Loading...</p>
+                    </div>
+                    <div class="weather-detail">
+                        <p><i class="fas fa-wind"></i> Air Quality Index (PM10)</p>
+                        <p id="aqi-value">Loading...</p>
+                    </div>
+                    <div class="weather-detail">
+                        <p><i class="fas fa-sun"></i> UV Index</p>
+                        <p id="uv-index">Loading...</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="bottom-nav">
+            <a href="#" class="nav-item active" id="nav-home">
+                <i class="fas fa-home"></i>
+                <p>Home</p>
+            </a>
+            <a href="forecast.html" class="nav-item" id="nav-forecast">
+                <i class="fas fa-cloud-sun"></i>
+                <p>Forecast</p>
+            </a>
+            <a href="#" class="nav-item" id="nav-saved">
+                <i class="fas fa-heart"></i>
+                <p>Saved</p>
+            </a>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

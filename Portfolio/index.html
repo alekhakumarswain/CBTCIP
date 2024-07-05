@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="I'm not handsome but I can give my hand to someone who needs my help.">
+    <meta name="keywords" content="Alekha, Alekha Kumar, Alekha Kumar Swain, Swain, blog, Portfolio">
+    <meta name="author" content="Alekha Kumar Swain">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.facebook.com/swainraja.kumaralekha">
+    <meta property="og:title" content="Alekha Kumar Swain">
+    <meta property="og:description" content="I'm not handsome but I can give my hand to someone who needs my help.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/alekha-kumar-swain/alekha-kumar-swain/main/1714368282588.jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Alekha Kumar Swain">
+    <meta property="og:site_name" content="Alekha Kumar Swain">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://x.com/alekha5258swain">
+    <meta property="twitter:title" content="Alekha Kumar Swain">
+    <meta property="twitter:description" content="I'm not handsome but I can give my hand to someone who needs my help.">
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/alekha-kumar-swain/alekha-kumar-swain/main/1714368282588.jpeg">
+    <script type="application/javascript" src="js/title.js"></script>
+    <script type="application/javascript" src="js/favicon.js"></script>
+
+    <!-- Schema.org for Google -->
+    <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Portfolio",
+          "name": "Alekha Kumar Swain",
+          "url": "https://alekhakumarswain.web.app",
+          "logo": "https://raw.githubusercontent.com/alekha-kumar-swain/alekha-kumar-swain/main/1714368282588.jpeg",
+          "description": "I'm not handsome but I can give my hand to someone who needs my help.",
+          "sameAs": [
+            "https://www.facebook.com/swainraja.kumaralekha",
+            "https://x.com/alekha5258swain",
+            "https://www.linkedin.com/in/alekhakumar/",
+            "https://www.instagram.com/alekhakumarswainraja/"
+          ]
+        }
+    </script>
+
+    <title>Alekha Kumar Swain</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <script src="https://www.gstatic.com/firebasejs/9.6.4/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.4/firebase-database-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-auth.js"></script>
+    
+
+    <link rel="stylesheet" href="css/style.css">    
+    <link rel="stylesheet" href="css/timeline.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bside.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/certificate.css">
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="css/skillbadges.css">
+    
+
+</head>
+<body >
+    <header>
+    </header>
+    
+    <aside class="nav">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home" onclick="handleClick('home')">
+                        <i class="fas fa-home"></i><strong>Home</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="#about" onclick="handleClick('about')">
+                        <i class="fas fa-info-circle"></i><strong>About</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="#services" onclick="handleClick('services')">
+                        <i class="fas fa-concierge-bell"></i><strong>Services</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="#project" onclick="handleClick('project')">
+                        <i class="fas fa-project-diagram"></i><strong>Project</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="#skill" onclick="handleClick('skill')">
+                        <i class="fas fa-code"></i><strong>Skill</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="#certificate" onclick="handleClick('certificate')">
+                        <i class="fas fa-certificate"></i><strong>Certificate</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact" onclick="handleClick('contact')">
+                        <i class="fas fa-envelope"></i><strong>Contact</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="openChatbot()">
+                        <i class="fas fa-robot"></i><strong>Chatbot</strong>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main>
+        <div id="home">
+            <div id="title">
+                <div id="img-avatar" class="circle-img" >
+                    <img src="https://raw.githubusercontent.com/alekha-kumar-swain/alekha-kumar-swain/main/1714368282588.jpeg" alt="Alekha Kumar Swain">
+                </div>
+                <div id="user-details">
+                    <h2 id="typed-user"></h2>   
+                </div>
+            </div>
+        </div>
+        <section id="about">
+            <h2>Hii 👋🙏🙋✌️🤲</h2>
+            <b style="color:wheat ;">I'm born on <u style="color:rgb(194, 21, 241) ;">Chaitra Shukla Prativad</u>, a significant day marking as the <u style="color:rgb(185, 231, 242) ;">Rastriya Hindu Nava Varsha</u>. With <u style="color:rgb(69, 26, 228) ;">Ashwini Nakshatra</u> guiding my journey, I embrace the fiery energy of <u style="color:rgba(244, 40, 8, 0.952) ;">Mesha Rashi (Aries)</u>, symbolizing ambition and drive. Ascending as <u style="color:rgb(236, 244, 10) ;">Singha Lagna (Leo rising)</u>, I bring forth leadership, creativity, and a zest for life. Each aspect of my birth chart weaves together to paint a vibrant portrait of passion, determination, and a love for embracing new beginnings.</b>
+            <div id="timeline">
+                <ul>
+                    <!-- Birth Information -->
+                    <h3 class="timeline-year">2002</h3>
+                    <li class="timeline-event">
+                        <div class="timeline-event-content">
+                            <div class="timeline-event-header">
+                                <h2 class="timeline-event-title">Birth</h2>
+                            </div>
+                            <p class="timeline-event-description">
+                                Born on 20/04/2002 at Astaranga, Puri, Odisha.<br>
+                                Zodiac sign: Aries<br>
+                                Ascendant Plannet: Leo
+                            </p>
+                        </div>
+                    </li>
+                    
+                    <!-- Schooling Life -->
+                    <h3 class="timeline-year">2006 - 2018</h3>
+                    <li class="timeline-event">
+                        <div class="timeline-event-content">
+                            <div class="timeline-event-header">
+                                <h2 class="timeline-event-title">Schooling Life</h2>
+                            </div>
+                            <p class="timeline-event-description">
+                                Studied at Saraswati Shishu Vidya Mandir, Astaranga.<br>
+                                from PrePrimary to 10th grade and Achieved 83% .
+                            </p>
+                        </div>
+                    </li>
+                    
+                    <!-- Intermediate Education -->
+                    <h3 class="timeline-year">2018 - 2020</h3>
+                    <li class="timeline-event">
+                        <div class="timeline-event-content">
+                            <div class="timeline-event-header">
+                                <h2 class="timeline-event-title">Intermediate Education</h2>
+                            </div>
+                            <p class="timeline-event-description">
+                                Studied at Saraswati Gyana Mandir Higher Secondary School, Niladrivihar, Bhubaneswar.<br>
+                                Achieved 66.5% in Intermediate in Science.
+                            </p>
+                        </div>
+                    </li>
+                    
+                    <!-- Bachelor's Degree -->
+                    <h3 class="timeline-year">2021 - 2025</h3>
+                    <li class="timeline-event">
+                        <div class="timeline-event-content">
+                            <div class="timeline-event-header">
+                                <h2 class="timeline-event-title">Bachelor's Degree</h2>
+                            </div>
+                            <p class="timeline-event-description">
+                                Currently pursuing B.TECH in Computer Science and Engineering at College Of Engineering Bhubaneswar.<br>
+                                Current CGPA: 7.96
+                            </p>
+                        </div>
+                    </li>
+                    
+                    <!-- Placeholder for future events -->
+                    <h3 class="timeline-year">Future</h3>
+                    <li class="timeline-event">
+                        <div class="timeline-event-content">
+                            <div class="timeline-event-header">
+                                <h2 class="timeline-event-title">To Be Continued...</h2>
+                            </div>
+                            <p class="timeline-event-description">
+                                Future events and milestones will be added here.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="services">
+            <h2>Services</h2>
+            <p>I offer services in AI consulting, machine learning model development, full-stack web development, mobile app development, and data analysis. My expertise includes working with various programming languages, frameworks, and cloud technologies.</p>
+        </section>
+        
+        <section id="project">
+            <h2>Projects</h2>
+            <p>Check out some of my latest projects that demonstrate my capabilities:</p>
+            <div class="projects-container" id="projects-container">
+                <h2><u>Recent Projects</u></h2>
+                <div id="recent-projects" class="project-list"></div>
+                <h2><u>Completed Projects</u></h2>
+                <div id="completed-projects" class="project-list"></div>
+            </div>
+        </section>
+        
+        <section id="skill">
+            <h2>Skills</h2>
+            <p>Proficient in various AI technologies and programming languages, including:</p>
+            <div id="skills-container" class="container"></div>
+        </section>
+        
+        <section id="certificate">
+            <h2>Certificates</h2>
+            <p>Recognized for outstanding contributions to the field of AI and technology with certifications including:</p>
+            <div class="certificate-container" id="certificate-container"></div>
+
+            <h2>My Skill Badges</h2>
+            <div id="badges-container"></div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>You can reach me at alekhakumarswain5258@gmail.com or connect with me on LinkedIn at <a href="https://linkedin.com/in/alekhakumar">@alekhakumar</a>. You can also view my projects on GitHub at <a href="https://github.com/alekhakumarswain">@alekhakumarswain</a>.</p>
+            <p>Contact Number: +91 8018226416</p>
+
+            <div class="contact-container">
+                <div class="contact-form">
+                    <h2>Contact Us</h2>
+                    <form id="contactForm">
+                        <div class="input-group">
+                            <i class="fas fa-user"></i>
+                            <input type="text" name="name" placeholder="Name" required>
+                        </div>
+                        <div class="input-group">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="input-group">
+                            <textarea name="message" placeholder="Message" required></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-image">
+                    <img src="assets/img/imgr1.png" alt="Contact Us">
+                </div>
+            </div>
+        </section>
+
+        <section id="chatbot">
+            <h2>AI Chatbot</h2>
+            <p>Interact with my AI Chatbot for more information.</p>
+            <!-- Placeholder for chatbot integration -->
+        </section>
+        
+    </main>
+
+    <bside>
+        <div id="img-avatar-icon" class="circle-img-icon">
+            <img src="https://raw.githubusercontent.com/alekha-kumar-swain/alekha-kumar-swain/main/1714368282588.jpeg" alt="Alekha Kumar Swain">
+        </div>
+        <div class="content">
+            <h3>Alekha Kumar Swain</h3>
+            <p>Software Engineer</p>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/swainraja.kumaralekha"><i class="fab fa-facebook"></i></a>
+            <a href="https://x.com/alekha5258swain"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/alekhakumarswainraja/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/alekhakumar/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/alekhakumarswain"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="contact-info">
+            <div>
+                <i class="fas fa-phone" style="color: green;"></i>
+                <div class="detail">
+                    <span style="font-size: 1.2vw;">+91 8018226416</span>
+                </div>
+            </div>
+            <div>
+                <i class="fas fa-envelope" style="color: rgb(233, 127, 34);"></i>
+                <div class="detail">
+                    <span style="font-size: 1.1vw;text-wrap: wrap;">alekhakumarswain111@gmail.com</span>
+                </div>
+            </div>
+            <div>
+                <i class="fas fa-map-marker-alt" style="color: rgb(39, 155, 184);"></i>
+                <div class="detail">
+                    <span style="font-size: 1.2vw;">Bhubaneswar, Odisha, India</span>
+                </div>
+            </div>
+            <div>
+                <i class="fas fa-birthday-cake" style="color: rgb(204, 28, 180);"></i>
+                <div class="detail">
+                    <span style="font-size: 1.2vw;">20<sup>th</sup> April 2002</span>
+                </div>
+            </div>
+            <div>
+                <i class="fas fa-school" style="color: rgb(26, 0, 128);"></i>
+                <div class="detail">
+                    <span style="font-size: 1.2vw;">College of Engineering Bhubaneswar</span>
+                </div>
+            </div>
+            <div>
+                <i class="fas fa-tint" style="color: rgb(224, 9, 23);"></i>
+                <div class="detail">
+                    <span style="font-size: 1.2dvw;">O +ve</span>
+                </div>
+            </div>
+        </div>
+        <a href="https://raw.githubusercontent.com/alekhakumarswain/alekhakumarswain/main/RAJA%20RESUME.pdf" class="download-cv">
+            <i class="fas fa-download"></i> <b style="font-size: 1.4dvw;">Download CV</b>
+        </a>
+    </bside>
+
+    <footer class="nav">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#project" onclick="handleClick('project')">
+                        <i class="fas fa-project-diagram"></i><br>
+                        <strong>Project</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="#skill" onclick="handleClick('skill')">
+                        <i class="fas fa-code"></i><br>
+                        <strong>Skill</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="/" onclick="handleClick('home')">
+                        <i class="fas fa-home"></i><br>
+                        <strong>Home</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="#certificate" onclick="handleClick('certificate')">
+                        <i class="fas fa-certificate"></i><br>
+                        <strong>Certificate</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="openChatbot()">
+                        <i class="fas fa-robot"></i><br>
+                        <strong>Chatbot</strong>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script type="application/javascript" src="js/title.js"></script>
+    <script type="application/javascript" src="js/type.js"></script>
+    <script type="application/javascript" src="js/tab.js"></script>
+    <script type="application/javascript" src="js/scroll.js"></script>
+    <script type="application/javascript" src="js/timeline.js"></script>
+    <script type="application/javascript" src="js/Skills.js"></script>
+    <script type="application/javascript" src="js/certificate.js"></script>
+    <script type="module" src="js/senddata.js"></script>
+    <script type="application/javascript" src="js/project.js"></script>
+    <script src="js/skillbadges.js"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+main {
+    padding: 0.5em;
+    background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%,#c26ee0 80%, #35eb93 100%);
+    margin: 1px;
+    border-radius: 30px;
+    border: 3px solid #ada41e;
+    text-align: justify;
+    text-justify: inter-word;
+}

@@ -1,0 +1,145 @@
+bside {
+    z-index: 3;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    color: white;
+    padding: 0.5rem;
+    width: 21%;
+    height: 75vh;
+    position: fixed;
+    top: 120px;
+    left: 78%;
+    border-radius: 15px;
+    border: 3px solid #ef2607;
+    margin: 7px;
+}
+
+bside .circle-img-icon {
+    position: absolute;
+    top: -90px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    z-index: 1; 
+    width: 130px; 
+    height: 130px; 
+    overflow: hidden;
+    border-radius: 20px;
+    border: 2px solid pink;
+}
+
+bside .circle-img-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.content h3 {
+    color: rgb(172, 68, 30);
+    margin-bottom: 0.5rem;
+}
+
+.content p {
+    margin: 0.5rem 0;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    font-size: 1.5vw;
+
+}
+.social-icons a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+.social-icons a:nth-child(1) i {
+    background: -webkit-linear-gradient(rgb(59, 89, 152), rgb(59, 89, 152)); /* Facebook colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.social-icons a:nth-child(2) i {
+    background: -webkit-linear-gradient(rgb(85, 172, 238), rgb(29, 161, 242)); /* Twitter colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.social-icons a:nth-child(3) i {
+    background: -webkit-linear-gradient(rgb(188, 42, 141), rgb(225, 48, 108)); /* Instagram colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.social-icons a:nth-child(4) i {
+    background: -webkit-linear-gradient(rgb(40, 103, 178), rgb(0, 119, 181)); /* LinkedIn colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.social-icons a:nth-child(5) i {
+    background: -webkit-linear-gradient(rgb(36, 41, 46), rgb(106, 115, 125)); /* GitHub colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.social-icons i {
+    color: white;
+}
+
+.contact-info {
+    text-align: left;
+    margin: 0.6rem 0;
+}
+
+.contact-info div {
+    display: flex;
+    align-items: flex-start;
+    margin: 0.5rem 0;
+}
+
+.contact-info div i {
+    font-size: 20px;
+    margin-right: 5px;
+    color: white;
+}
+
+.contact-info div .detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info div .detail span {
+    font-size: 1rem;
+    position: relative;
+    top: -10px;
+}
+
+.download-cv {
+    display: block;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 0.1rem;
+    padding: 0.3vw 0.2vw;
+    background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid rgb(20, 184, 11);
+}
+
+.download-cv i {
+    vertical-align: middle;
+    margin-right: 0.5rem;
+    background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.download-cv b{
+    background: -webkit-linear-gradient(85deg,white,rgb(245, 2, 2),rgb(225, 151, 2),rgb(247, 5, 45),rgb(230, 15, 33),white,rgb(41, 229, 229));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

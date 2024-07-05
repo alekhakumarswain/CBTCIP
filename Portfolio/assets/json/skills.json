@@ -1,0 +1,61 @@
+{
+  "programming_languages": [
+    {"name": "C", "icon": "https://img.icons8.com/color/48/000000/c-programming.png"},
+    {"name": "C#", "icon": "https://img.icons8.com/color/48/000000/c-sharp-logo.png"},
+    {"name": "JAVA", "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png"},
+    {"name": "Python", "icon": "https://img.icons8.com/color/48/000000/python.png"},
+    {"name": "HTML", "icon": "https://img.icons8.com/color/48/000000/html-5.png"},
+    {"name": "CSS", "icon": "https://img.icons8.com/color/48/000000/css3.png"},
+    {"name": "JavaScript", "icon": "https://img.icons8.com/color/48/000000/javascript.png"},
+    {"name": "jQuery", "icon": "https://img.icons8.com/ios-filled/50/000000/jquery.png"},
+    {"name": "JSON", "icon": "https://img.icons8.com/color/48/000000/json.png"},
+    {"name": "AJAX", "icon": "https://miro.medium.com/v2/resize:fit:1200/0*FQodkQa_DorcUfC0.png"},
+    {"name": "PHP", "icon": "https://img.icons8.com/officel/48/000000/php-logo.png"}
+  ],
+  "web_development": [
+    {"name": "Node.js", "icon": "https://img.icons8.com/color/48/000000/nodejs.png"},
+    {"name": "Express.js", "icon": "https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png"},
+    {"name": "React", "icon": "https://img.icons8.com/color/48/000000/react-native.png"}
+  ],
+  "frontend_frameworks": [
+    {"name": "Bootstrap", "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"},
+    {"name": "Sass", "icon": "https://img.icons8.com/color/48/000000/sass.png"},
+    {"name": "Tailwind CSS", "icon": "https://img.icons8.com/color/48/000000/tailwindcss.png"}
+  ],
+  "databases": [
+    {"name": "MongoDB", "icon": "https://img.icons8.com/color/48/000000/mongodb.png"},
+    {"name": "SQL", "icon": "https://img.icons8.com/color/48/000000/sql.png"},
+    {"name": "NoSQL", "icon": "https://samirbehara.com/wp-content/uploads/2018/01/nosql-database.png"}
+  ],
+  "cloud_technologies": [
+    {"name": "Google Cloud Platform (GCP)", "icon": "https://img.icons8.com/color/48/000000/google-cloud.png"},
+    {"name": "AWS", "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"},
+    {"name": "Microsoft Azure", "icon": "https://img.icons8.com/color/48/000000/azure-1.png"}
+  ],
+  "developer_tools_vcs": [
+    {"name": "Git", "icon": "https://img.icons8.com/color/48/000000/git.png"},
+    {"name": "Postman", "icon": "https://seeklogo.com/images/P/postman-logo-0087CA0D15-seeklogo.com.png"},
+    {"name": "Canva", "icon": "https://img.icons8.com/color/48/000000/canva.png"}
+  ],
+  "game_development": [
+    {"name": "Unity", "icon": "https://img.icons8.com/color/48/000000/unity.png"},
+    {"name": "Flutter", "icon": "https://img.icons8.com/color/48/000000/flutter.png"}
+  ],
+  "mobile_app_development": [
+    {"name": "Android Studio", "icon": "https://img.icons8.com/color/48/000000/android-studio.png"},
+    {"name": "Sketchware", "icon": "https://avatars.githubusercontent.com/u/81916613?s=280&v=4"},
+    {"name": "Flutter", "icon": "https://img.icons8.com/color/48/000000/flutter.png"}
+  ],
+  "system_software_development": [
+    {"name": "NetBeans IDE", "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Apache_NetBeans_Logo.svg/1200px-Apache_NetBeans_Logo.svg.png"}
+  ],
+  "animation_graphics_designing": [
+    {"name": "Blender", "icon": "https://img.icons8.com/color/48/000000/blender-3d.png"},
+    {"name": "Plotagon 3D", "icon": "https://www.plotagon.com/assets/icons/desktop-icon.png"}
+  ],
+  "AI_and_Advanced_Technology": [
+    {"name": "TensorFlow", "icon": "https://img.icons8.com/color/48/000000/tensorflow.png"},
+    {"name": "Gen AI", "icon": "https://img.icons8.com/color/48/000000/ai.png"},
+    {"name": "ChatGPT", "icon": "https://img.icons8.com/color/48/000000/chatgpt.png"}
+  ]
+}

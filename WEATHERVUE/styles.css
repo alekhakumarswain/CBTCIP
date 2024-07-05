@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #2E3A59;
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#app-container {
+    background: #1E2741;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    height: 100vh; /* Full viewport height */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    box-sizing: border-box;
+}
+
+#app-container::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; 
+}
+
+#app {
+    padding-bottom: 80px; /* Space for the fixed bottom navigation */
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header h1{
+    background-color: rgba(0, 119, 255, 0.38);
+    border-radius: 10px;
+    border: 2px double red;
+    padding: 10px;
+}
+
+.location-search {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-search input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+.location-search button {
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#search-btn{
+    background-color: #4CAF50;
+}
+#add-fev{
+    background-color: plum;
+}
+
+.location-search button:hover {
+    background-color: #45a049;
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+.weather-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+    
+}
+
+.weather-detail {
+    background: rgba(33, 156, 64, 0.4);
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid wheat;
+}
+
+
+
+.bottom-nav {
+    position: fixed;
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    background: #1E2741;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border: 2px solid rgb(3, 33, 51);
+    box-shadow: 2px 2px 8px 1px rgb(0, 24, 0);
+}
+
+.nav-item {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+ .active{
+    color: #4CAF50;
+}
+
+.nav-item i {
+    font-size: 24px;
+}
+
+.nav-item p {
+    margin: 0;
+    font-size: 12px;
+}
