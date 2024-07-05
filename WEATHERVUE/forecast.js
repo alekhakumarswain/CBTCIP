@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const apiKey = '861d6213e9feabbf0f5840c5b73060e9'; // Replace with your OpenWeatherMap API key
+    const apiKey = ''; // Replace with your OpenWeatherMap API key
     const locationInput = document.getElementById('location-input');
     const searchBtn = document.getElementById('search-btn');
     const forecastList = document.querySelector('.forecast-list');
