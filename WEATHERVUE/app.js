@@ -1,4 +1,4 @@
-const apiKey = '';
+const apiKey = '861d6213e9feabbf0f5840c5b73060e9';
 
 async function getWeatherDataByCoords(lat, lon) {
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
@@ -90,7 +90,22 @@ function getLocation() {
     }
 }
 
-
+// Event listener for adding to favorites
+addFevBtn.addEventListener('click', () => {
+    const selectedLatLon = addFevBtn.dataset.latlon;
+    if (selectedLatLon) {
+        const favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+        if (!favorites.includes(selectedLatLon)) {
+            favorites.push(selectedLatLon);
+            localStorage.setItem('favorites', JSON.stringify(favorites));
+            alert('Location added to favorites!');
+        } else {
+            alert('Location already in favorites!');
+        }
+    } else {
+        alert('No location selected to add to favorites!');
+    }
+});
 
 
 getLocation(); // Fetch weather data for current location

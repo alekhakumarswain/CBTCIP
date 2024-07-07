@@ -18,67 +18,14 @@
                 <input type="text" id="location-input" placeholder="Enter location (city)">
                 <button id="search-btn"><i class="fas fa-search"></i></button>
                 <hr>
-                <button id="add-fev"><i class="fas fa-heart"></i></button>
+                <button id="add-fev" data-latlon="">
+                    <i class="fas fa-heart"></i>
+                </button>
             </div>
             <div class="forecast-container">
                 <h2>8-day forecast</h2>
                 <ul class="forecast-list">
-                    <li class="forecast-item" onclick="showForecastDetails('Fri, Jul 05')">
-                        <span class="date">Fri, Jul 05</span>
-                        <i class="fas fa-cloud-showers-heavy"></i>
-                        <span class="temp">31 / 26°C</span>
-                        <span class="description">light rain</span>
-                        <i class="fas fa-chevron-down"></i>
-                    </li>
-                    <li class="forecast-item" onclick="showForecastDetails('Sat, Jul 06')">
-                        <span class="date">Sat, Jul 06</span>
-                        <i class="fas fa-cloud-showers-heavy"></i>
-                        <span class="temp">32 / 29°C</span>
-                        <span class="description">light rain</span>
-                        <i class="fas fa-chevron-down"></i>
-                    </li>
-                    <li class="forecast-item" onclick="showForecastDetails('Sun, Jul 07')">
-                        <span class="date">Sun, Jul 07</span>
-                        <i class="fas fa-cloud-showers-heavy"></i>
-                        <span class="temp">31 / 28°C</span>
-                        <span class="description">moderate rain</span>
-                        <i class="fas fa-chevron-down"></i>
-                    </li>
-                    <li class="forecast-item" onclick="showForecastDetails('Mon, Jul 08')">
-                        <span class="date">Mon, Jul 08</span>
-                        <i class="fas fa-cloud-showers-heavy"></i>
-                        <span class="temp">31 / 27°C</span>
-                        <span class="description">moderate rain</span>
-                        <i class="fas fa-chevron-down"></i>
-                    </li>
-                    <li class="forecast-item" onclick="showForecastDetails('Tue, Jul 09')">
-                        <span class="date">Tue, Jul 09</span>
-                        <i class="fas fa-cloud-showers-heavy"></i>
-                        <span class="temp">31 / 28°C</span>
-                        <span class="description">light rain</span>
-                        <i class="fas fa-chevron-down"></i>
-                    </li>
-                    <li class="forecast-item" onclick="showForecastDetails('Wed, Jul 10')">
-                        <span class="date">Wed, Jul 10</span>
-                        <i class="fas fa-cloud-showers-heavy"></i>
-                        <span class="temp">29 / 29°C</span>
-                        <span class="description">moderate rain</span>
-                        <i class="fas fa-chevron-down"></i>
-                    </li>
-                    <li class="forecast-item" onclick="showForecastDetails('Thu, Jul 11')">
-                        <span class="date">Thu, Jul 11</span>
-                        <i class="fas fa-cloud-showers-heavy"></i>
-                        <span class="temp">29 / 28°C</span>
-                        <span class="description">moderate rain</span>
-                        <i class="fas fa-chevron-down"></i>
-                    </li>
-                    <li class="forecast-item" onclick="showForecastDetails('Fri, Jul 12')">
-                        <span class="date">Fri, Jul 12</span>
-                        <i class="fas fa-cloud-showers-heavy"></i>
-                        <span class="temp">31 / 28°C</span>
-                        <span class="description">light rain</span>
-                        <i class="fas fa-chevron-down"></i>
-                    </li>
+                    <!-- Forecast items will be populated dynamically -->
                 </ul>
             </div>
             <div id="forecast-modal" class="modal">
