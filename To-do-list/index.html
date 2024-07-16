@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">To-Do List</h1>
+        <div id="day-selection" class="card">
+            <div class="card-body">
+                <h5 class="card-title">Create TASK</h5>
+                <div class="form-group">
+                    <input type="text" id="new-day-name" class="form-control" placeholder="Enter name for new task category">
+                    <button id="add-day-btn" class="btn btn-primary mt-2">
+                        <i class="fas fa-plus"></i> Add Category
+                    </button>
+                </div>
+                <ul id="day-list" class="list-group">
+                    <!-- Day items will be added here dynamically -->
+                </ul>
+            </div>
+        </div>
+        <div id="task-interface" class="card d-none">
+            <div class="card-body">
+                <button id="back-btn" class="btn btn-secondary mb-3">Back</button>
+                <h5 class="card-title" id="day-title">Add New Task</h5>
+                <div class="form-group">
+                    <input type="text" id="new-task-title" class="form-control" placeholder="Enter task title">
+                </div>
+                <button id="add-task-btn" class="btn btn-primary">Add Task</button>
+            </div>
+        </div>
+        <hr>
+        <h3>Pending Tasks</h3>
+        <ul id="task-list" class="list-group mb-4"></ul>
+        <h3>Completed Tasks</h3>
+        <ul id="completed-task-list" class="list-group"></ul>
+    </div>
 
+    <script src="app.js"></script>
+</body>
+</html>
