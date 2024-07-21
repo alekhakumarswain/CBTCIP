@@ -1,4 +1,4 @@
-const api='861d6213e9feabbf0f5840c5b73060e9';
+const api='';
 const lat=19.979449;
 const lon=75.3295;
 
