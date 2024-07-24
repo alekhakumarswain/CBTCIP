@@ -1,4 +1,4 @@
-const apiKey = '861d6213e9feabbf0f5840c5b73060e9';
+const apiKey = '';
 
 async function getWeatherDataByCoords(lat, lon) {
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
