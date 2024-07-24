@@ -39,7 +39,7 @@
 
     <script>
         async function fetchAirQuality() {
-            const apiURL = 'http://api.openweathermap.org/data/2.5/air_pollution?lat=19.979449&lon=86.312852&appid=861d6213e9feabbf0f5840c5b73060e9';
+            const apiURL = 'http://api.openweathermap.org/data/2.5/air_pollution?lat=19.979449&lon=86.312852&appid={apikey}';
             const response = await fetch(apiURL);
             const data = await response.json();
 
